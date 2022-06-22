@@ -1,9 +1,9 @@
 package service
 
 import (
-	"boilerplate/internal/user/dao"
-	"boilerplate/internal/user/dto"
 	"context"
+	"demo/internal/user/dao"
+	"demo/internal/user/dto"
 	application "github.com/debugger84/modulus-application"
 	"github.com/gofrs/uuid"
 	"time"

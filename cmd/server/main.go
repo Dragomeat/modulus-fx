@@ -1,8 +1,8 @@
 package main
 
 import (
-	"boilerplate/internal/framework"
-	"boilerplate/internal/user"
+	"demo/internal/framework"
+	"demo/internal/user"
 	"go.uber.org/fx"
 	"go.uber.org/fx/fxevent"
 	"go.uber.org/zap"
