@@ -1,6 +1,7 @@
 package main
 
 import (
+	"demo/internal/errors"
 	"demo/internal/framework"
 	"demo/internal/user"
 	"go.uber.org/fx"
@@ -11,7 +12,7 @@ import (
 func main() {
 	app := fx.New(
 		framework.ConfigModule(),
-		framework.ErrorsModule(),
+		errors.Module(),
 		framework.LoggerModule(),
 		framework.HttpModule(),
 		framework.GormModule(),
